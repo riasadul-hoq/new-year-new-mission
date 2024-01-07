@@ -36,8 +36,43 @@ body {
 .banner-title {
   font-size: 72px;
   font-weight: 900;
-  /* line-height: 95px; 131.944% */
+  line-height: 95px;
   padding-left: 344px;
   padding-right: 344px;
   margin-top: 16px;
+}
+
+/* Sale Section Styles */
+.sale-section {
+  margin-top: 120px;
+}
+
+.sale-text-container {
+  text-align: center;
+  font-family: Inter;
+}
+
+.sale-offer-title {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.sale-message {
+  margin-top: 48px;
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sale-cat-title {
+  margin-top: 16px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sale-image {
+  margin-top: 48px;
+  margin-left: 399px;
+  margin-right: 399px;
 }
