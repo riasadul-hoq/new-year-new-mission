@@ -105,7 +105,7 @@ body {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
   padding-left: 126px;
 }
 
@@ -154,7 +154,7 @@ body {
   font-family: Inter;
   font-size: 32px;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
 }
 
@@ -218,4 +218,70 @@ body {
 
 .portfolio-image:hover {
   transform: scale(1.3);
+}
+
+/* Subscribe Section Styles */
+.subscribe-bg {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 616px;
+  margin: 120px 140px 0px;
+}
+
+.email-image {
+  padding: 80px 585px 0px;
+}
+
+.subscribe-title {
+  margin-top: 40px;
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.subscribe-message {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+  padding-left: 212px;
+  padding-right: 212px;
+}
+
+.subscribe-button-div {
+  margin-top: 48px;
+  display: flex;
+  margin-left: 336px;
+  padding-right: 336px;
+}
+
+.subscribe-email {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  border: none;
+  padding: 25px 90px 25px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe-button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 24px 56px;
 }
