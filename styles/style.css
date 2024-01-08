@@ -285,3 +285,87 @@ body {
   text-transform: capitalize;
   padding: 24px 56px;
 }
+
+/* Footer Styles */
+.footer-bg {
+  background: #070211;
+  width: 1600px;
+  height: 609px;
+  margin-top: 120px;
+}
+
+.address-container {
+  display: flex;
+  gap: 200px;
+}
+
+.address-details {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding-top: 120px;
+  padding-left: 140px;
+}
+
+.contact-container {
+  display: block;
+  padding-top: 120px;
+  padding-right: 100px;
+}
+
+.contact-details-container {
+  display: flex;
+}
+
+.call-number {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 40px;
+  padding-left: 16px;
+  /* padding-right: 291px; */
+}
+
+.web-details-container {
+  display: flex;
+}
+
+.website-details {
+  /* margin-top: 8px; */
+  padding-left: 16px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 50px;
+  padding-right: 275px;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.socials {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  /* padding-left: 640px; */
+  text-align: center;
+}
+
+.footer-note {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
