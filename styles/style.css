@@ -86,13 +86,12 @@ body {
   width: 1320px;
   height: 600px;
   margin: 120px 140px 0px;
+  border-radius: 16px;
 }
 
 .midnight-title {
   color: #fff;
-
   font-size: 64px;
-
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
@@ -123,4 +122,57 @@ body {
 .year-image {
   padding-top: 68px;
   padding-right: 138px;
+}
+
+/* Hotel Section Styles */
+.hotel-bg {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  margin: 120px 140px 0px;
+}
+
+.hotel-details {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  padding-top: 100px;
+  padding-right: 385px;
+  padding-left: 385px;
+  text-align: center;
+}
+
+.label-highlight {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+
+.button-div {
+  margin-top: 48px;
+  padding-left: 576px;
+  padding-right: 577px;
+}
+
+.join-now-button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
 }
