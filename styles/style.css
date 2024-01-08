@@ -124,6 +124,11 @@ body {
   padding-right: 138px;
 }
 
+/* White Circle Blend */
+.year-image img {
+  mix-blend-mode: normal;
+}
+
 /* Hotel Section Styles */
 .hotel-bg {
   background-image: linear-gradient(
@@ -297,6 +302,16 @@ body {
   background-repeat: no-repeat;
   background-position: right top, bottom;
   margin-top: 64px;
+}
+
+/* Box Image Grey Shades Removal */
+/* .box-image {
+  mix-blend-mode: normal;
+} */
+
+/* Discount Image Positioning */
+.discount-image {
+  position: absolute;
 }
 
 /* Portfolio Section Styles*/
