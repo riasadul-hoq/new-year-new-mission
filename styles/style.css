@@ -177,6 +177,29 @@ body {
   border: none;
 }
 
+/* Offer Section Styles */
+.offer-section {
+  display: flex;
+  margin: 120px 140px 0px;
+  gap: 180px;
+}
+
+/* Holiday Sale Section Styles */
+.holiday-sale-text-container {
+  text-align: center;
+  margin: 120px 140px 0px;
+}
+
+.holiday-sale-image-container {
+  background-image: url("../images/Rectangle\ 1.png"),
+    url("../images/Rectangle\ 2.png");
+
+  background-repeat: no-repeat;
+  background-position: right top, bottom;
+  /* padding-left: 140px;
+  padding-right: 140px; */
+}
+
 /* Portfolio Section Styles*/
 
 .portfolio-section {
