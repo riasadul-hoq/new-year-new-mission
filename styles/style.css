@@ -184,6 +184,14 @@ body {
   gap: 180px;
 }
 
+.ellipse {
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  padding: 49.08px;
+  border: 15px solid #f00;
+}
+
 /* Holiday Sale Section Styles */
 
 .holiday-sale-section {
