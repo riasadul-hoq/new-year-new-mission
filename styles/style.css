@@ -254,25 +254,50 @@ body {
 /* Holiday Sale Section Styles */
 
 .holiday-sale-section {
-  background-image: url("../images/Rectangle\ 1.png"),
-    url("../images/Rectangle\ 2.png");
-  background-repeat: no-repeat;
-  background-position: right center, bottom;
   margin: 120px 140px 0px;
-  /* background-origin: border-box; */
 }
 .holiday-sale-text-container {
   text-align: center;
   margin: 120px 140px 0px;
 }
 
-/* .holiday-sale-image-container {
+.holiday-sale-intro {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-sale-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+
+.holiday-sale-title span {
+  color: #f00;
+}
+
+.holiday-sale-message {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px;
+}
+
+.holiday-sale-image-container {
   background-image: url("../images/Rectangle\ 1.png"),
     url("../images/Rectangle\ 2.png");
-
   background-repeat: no-repeat;
   background-position: right top, bottom;
-} */
+  margin-top: 64px;
+}
 
 /* Portfolio Section Styles*/
 
